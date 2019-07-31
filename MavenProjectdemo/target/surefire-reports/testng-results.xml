@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8667" started-at="2019-07-30T12:43:35Z" finished-at="2019-07-30T12:43:43Z">
+  <suite name="Suite" duration-ms="41941" started-at="2019-07-31T05:54:06Z" finished-at="2019-07-31T05:54:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8667" started-at="2019-07-30T12:43:35Z" finished-at="2019-07-30T12:43:43Z">
+    <test name="Test" duration-ms="41941" started-at="2019-07-31T05:54:06Z" finished-at="2019-07-31T05:54:48Z">
       <class name="edgebrowser">
-        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@30c7da1e]" name="launchBrowser" duration-ms="4706" started-at="2019-07-30T12:43:35Z" finished-at="2019-07-30T12:43:39Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@36d64342]" name="launchBrowser" duration-ms="6084" started-at="2019-07-31T05:54:06Z" finished-at="2019-07-31T05:54:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="openEdgeBrowser()[pri:2, instance:edgebrowser@30c7da1e]" name="openEdgeBrowser" duration-ms="3048" started-at="2019-07-30T12:43:39Z" finished-at="2019-07-30T12:43:42Z">
+        <test-method status="PASS" signature="openEdgeBrowser()[pri:2, instance:edgebrowser@36d64342]" name="openEdgeBrowser" duration-ms="34470" started-at="2019-07-31T05:54:12Z" finished-at="2019-07-31T05:54:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openEdgeBrowser -->
-        <test-method status="PASS" signature="closeDriver()[pri:3, instance:edgebrowser@30c7da1e]" name="closeDriver" duration-ms="872" started-at="2019-07-30T12:43:42Z" finished-at="2019-07-30T12:43:43Z">
+        <test-method status="PASS" signature="closeDriver()[pri:3, instance:edgebrowser@36d64342]" name="closeDriver" duration-ms="1346" started-at="2019-07-31T05:54:46Z" finished-at="2019-07-31T05:54:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13276" started-at="2019-08-09T10:05:15Z" finished-at="2019-08-09T10:05:28Z">
+  <suite name="Suite" duration-ms="10887" started-at="2019-08-09T10:21:28Z" finished-at="2019-08-09T10:21:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13276" started-at="2019-08-09T10:05:15Z" finished-at="2019-08-09T10:05:28Z">
+    <test name="Test" duration-ms="10887" started-at="2019-08-09T10:21:28Z" finished-at="2019-08-09T10:21:39Z">
       <class name="edgebrowser">
-        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@36d64342]" name="launchBrowser" duration-ms="7078" started-at="2019-08-09T10:05:15Z" finished-at="2019-08-09T10:05:22Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@36d64342]" name="launchBrowser" duration-ms="3793" started-at="2019-08-09T10:21:28Z" finished-at="2019-08-09T10:21:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="openChromeBrowser()[pri:2, instance:edgebrowser@36d64342]" name="openChromeBrowser" duration-ms="6151" started-at="2019-08-09T10:05:22Z" finished-at="2019-08-09T10:05:28Z">
+        <test-method status="PASS" signature="openChromeBrowser()[pri:2, instance:edgebrowser@36d64342]" name="openChromeBrowser" duration-ms="7044" started-at="2019-08-09T10:21:32Z" finished-at="2019-08-09T10:21:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeBrowser -->

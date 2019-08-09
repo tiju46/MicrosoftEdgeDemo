@@ -31,7 +31,7 @@ public class edgebrowser {
 	    driver.findElement(By.id("submit_login")).click();
 	    
 	    }
-    // @Test(priority=2)
+    @Test(priority=2)
      public void CheckIn() throws InterruptedException {
 	    driver.findElement(By.xpath("//ng-multiselect-dropdown[@id='unit_number']")).click();
 	    driver.findElement(By.xpath("//div[contains(text(),'Block 1-002')]")).click();

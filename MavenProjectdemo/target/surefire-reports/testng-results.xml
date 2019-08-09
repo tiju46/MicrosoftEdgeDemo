@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="10887" started-at="2019-08-09T10:21:28Z" finished-at="2019-08-09T10:21:39Z">
+  <suite name="Suite" duration-ms="3729" started-at="2019-08-09T10:29:40Z" finished-at="2019-08-09T10:29:44Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="10887" started-at="2019-08-09T10:21:28Z" finished-at="2019-08-09T10:21:39Z">
+    <test name="Test" duration-ms="3729" started-at="2019-08-09T10:29:40Z" finished-at="2019-08-09T10:29:44Z">
       <class name="edgebrowser">
-        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@36d64342]" name="launchBrowser" duration-ms="3793" started-at="2019-08-09T10:21:28Z" finished-at="2019-08-09T10:21:32Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@36d64342]" name="launchBrowser" duration-ms="3682" started-at="2019-08-09T10:29:40Z" finished-at="2019-08-09T10:29:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="openChromeBrowser()[pri:2, instance:edgebrowser@36d64342]" name="openChromeBrowser" duration-ms="7044" started-at="2019-08-09T10:21:32Z" finished-at="2019-08-09T10:21:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openChromeBrowser -->
       </class> <!-- edgebrowser -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

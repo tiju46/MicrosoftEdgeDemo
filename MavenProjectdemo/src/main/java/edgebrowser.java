@@ -15,14 +15,14 @@ public class edgebrowser {
 	@Test(priority=1)
 	public void launchBrowser() {
 		System.out.println("launching chrome browser");
-		//System.setProperty("webdriver.chrome.driver","C:\\Users\\tiju thomas\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver","/home/testing/Desktop/chromedriver_linux64/chromedriver");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\tiju thomas\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","/home/testing/Desktop/chromedriver_linux64/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.setHeadless(true);
 		driver = new ChromeDriver(options);
 	}
 
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void openChromeBrowser() {
 		driver.navigate().to("https://apartmentadda.com/user/security.php?is_adda_io=0#/visitor/visitor-in");
 		driver.findElement(By.name("email")).sendKeys("thomas@3five8.com");

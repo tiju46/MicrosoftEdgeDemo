@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7689" started-at="2019-07-30T11:55:20Z" finished-at="2019-07-30T11:55:28Z">
+  <suite name="Default suite" duration-ms="7" started-at="2019-08-09T09:49:28Z" finished-at="2019-08-09T09:49:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7689" started-at="2019-07-30T11:55:20Z" finished-at="2019-07-30T11:55:28Z">
-      <class name="edgebrowser">
-        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@2b98378d]" name="launchBrowser" duration-ms="4809" started-at="2019-07-30T11:55:20Z" finished-at="2019-07-30T11:55:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="openEdgeBrowser()[pri:2, instance:edgebrowser@2b98378d]" name="openEdgeBrowser" duration-ms="1976" started-at="2019-07-30T11:55:25Z" finished-at="2019-07-30T11:55:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openEdgeBrowser -->
-        <test-method status="PASS" signature="closeDriver()[pri:3, instance:edgebrowser@2b98378d]" name="closeDriver" duration-ms="830" started-at="2019-07-30T11:55:27Z" finished-at="2019-07-30T11:55:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- edgebrowser -->
+    <test name="Default test" duration-ms="7" started-at="2019-08-09T09:49:28Z" finished-at="2019-08-09T09:49:28Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

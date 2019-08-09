@@ -5,7 +5,8 @@
     <classes>
       <class name="edgebrowser">
         <methods>
-          <include name="openEdgeBrowser"/>
+          <include name="openChromeBrowser"/>
+          <include name="launchBrowser"/>
         </methods>
       </class> <!-- edgebrowser -->
     </classes>

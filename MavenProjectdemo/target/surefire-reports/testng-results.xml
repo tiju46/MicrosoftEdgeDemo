@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41941" started-at="2019-07-31T05:54:06Z" finished-at="2019-07-31T05:54:48Z">
+  <suite name="Suite" duration-ms="13276" started-at="2019-08-09T10:05:15Z" finished-at="2019-08-09T10:05:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="41941" started-at="2019-07-31T05:54:06Z" finished-at="2019-07-31T05:54:48Z">
+    <test name="Test" duration-ms="13276" started-at="2019-08-09T10:05:15Z" finished-at="2019-08-09T10:05:28Z">
       <class name="edgebrowser">
-        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@36d64342]" name="launchBrowser" duration-ms="6084" started-at="2019-07-31T05:54:06Z" finished-at="2019-07-31T05:54:12Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:1, instance:edgebrowser@36d64342]" name="launchBrowser" duration-ms="7078" started-at="2019-08-09T10:05:15Z" finished-at="2019-08-09T10:05:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="openEdgeBrowser()[pri:2, instance:edgebrowser@36d64342]" name="openEdgeBrowser" duration-ms="34470" started-at="2019-07-31T05:54:12Z" finished-at="2019-07-31T05:54:46Z">
+        <test-method status="PASS" signature="openChromeBrowser()[pri:2, instance:edgebrowser@36d64342]" name="openChromeBrowser" duration-ms="6151" started-at="2019-08-09T10:05:22Z" finished-at="2019-08-09T10:05:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openEdgeBrowser -->
-        <test-method status="PASS" signature="closeDriver()[pri:3, instance:edgebrowser@36d64342]" name="closeDriver" duration-ms="1346" started-at="2019-07-31T05:54:46Z" finished-at="2019-07-31T05:54:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
+        </test-method> <!-- openChromeBrowser -->
       </class> <!-- edgebrowser -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

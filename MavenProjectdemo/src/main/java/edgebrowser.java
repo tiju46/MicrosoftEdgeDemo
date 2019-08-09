@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class edgebrowser {
 	
@@ -16,7 +17,9 @@ public class edgebrowser {
 		System.out.println("launching chrome browser");
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\tiju thomas\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver","/home/testing/Desktop/chromedriver_linux64/chromedriver");
-		driver = new ChromeDriver();
+		ChromeOptions options = new ChromeOptions();
+		options.setHeadless(true);
+		driver = new ChromeDriver(options);
 	}
 
 	@Test(priority=2)

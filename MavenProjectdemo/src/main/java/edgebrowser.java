@@ -45,20 +45,20 @@ public class edgebrowser {
 	    
      }
 	   
-	   // @Test(priority=3)
+	   @Test(priority=3)
 	    public void CheckOut() throws InterruptedException {
 	    driver.findElement(By.xpath("//a[@href='#/visitor/visitor-out']")).click();
 	    driver.findElement(By.xpath("//button[@type='button' and contains(., 'CHECK OUT')]")).click();
 	    Thread.sleep(5000);
 	    }
-	    //@Test(priority=4)
+	    @Test(priority=4)
 	    public void staffcheckin() throws InterruptedException {
 	    driver.findElement(By.xpath("//p[contains(text(),'Staff')]")).click();
 	    driver.findElement(By.xpath("//button[@type='button'][contains(text(),'CHECK IN')]")).click();
 	    Thread.sleep(5000);
 	    }
 	    
-	   // @Test(priority=5)
+	    @Test(priority=5)
 	    public void staffcheckout() throws InterruptedException {
 	    driver.findElement(By.xpath("//a[@href='#/staff/staff-out']")).click();
 	    driver.findElement(By.xpath("//button[@type='button'][contains(text(),'CHECK OUT')]")).click();

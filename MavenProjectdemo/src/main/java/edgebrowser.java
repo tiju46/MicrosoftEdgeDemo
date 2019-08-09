@@ -16,7 +16,7 @@ public class edgebrowser {
 	public void launchBrowser() {
 		System.out.println("launching chrome browser");
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\tiju thomas\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver","/home/testing/Desktop/chromedriver_linux64(1)/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/home/testing/Desktop/chromedriver_linux64/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.setHeadless(true);
 		driver = new ChromeDriver(options);

@@ -3,23 +3,24 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
+//import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class edgebrowser {
 	
-	String driverPath = "D:\\";
 	public WebDriver driver;
 	
 	@Test(priority=1)
 	public void launchBrowser() {
-		System.out.println("launching Microsoft Edge browser");
-		System.setProperty("webdriver.edge.driver", driverPath+"MicrosoftWebDriver.exe");
-		driver = new EdgeDriver();
+		System.out.println("launching chrome browser");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\tiju thomas\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","/home/testing/Desktop/chromedriver_linux64/chromedriver");
+		driver = new ChromeDriver();
 	}
 
 	@Test(priority=2)
-	public void openEdgeBrowser() {
+	public void openChromeBrowser() {
 		driver.navigate().to("https://apartmentadda.com/user/security.php?is_adda_io=0#/visitor/visitor-in");
 		driver.findElement(By.name("email")).sendKeys("thomas@3five8.com");
 	    driver.findElement(By.name("password")).sendKeys("adda12345");
@@ -28,7 +29,7 @@ public class edgebrowser {
 	    driver.findElement(By.id("submit_login")).click();
 	}
 	
-	@Test(priority=3)
+	//@Test(priority=3)
 	public void closeDriver() {
 		if(driver!=null) {
 			driver.close();

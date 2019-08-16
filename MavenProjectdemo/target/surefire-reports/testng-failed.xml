@@ -5,12 +5,16 @@
     <classes>
       <class name="edgebrowser">
         <methods>
+<<<<<<< HEAD
           <include name="CheckOut"/>
           <include name="staffcheckout"/>
           <include name="closeDriver"/>
           <include name="staffcheckin"/>
           <include name="launchBrowser"/>
           <include name="CheckIn"/>
+=======
+          <include name="launchBrowser"/>
+>>>>>>> branch 'master' of https://github.com/tiju46/MicrosoftEdgeDemo.git
         </methods>
       </class> <!-- edgebrowser -->
     </classes>

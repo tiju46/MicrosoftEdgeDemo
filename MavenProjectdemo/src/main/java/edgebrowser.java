@@ -40,7 +40,6 @@ public class edgebrowser {
 	    try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
         driver.findElement(By.xpath("//ng-multiselect-dropdown[@id='reason']")).click();
@@ -49,12 +48,10 @@ public class edgebrowser {
 	    try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	    
      }
-	   
 	    @Test(priority=3)
 	    public void CheckOut() throws InterruptedException {
 	    driver.findElement(By.xpath("//a[@href='#/visitor/visitor-out']")).click();
@@ -74,7 +71,7 @@ public class edgebrowser {
 	    driver.findElement(By.xpath("//button[@type='button'][contains(text(),'CHECK OUT')]")).click();
 	    Thread.sleep(5000);
 	    }
-	    
+	   
      @AfterTest
      public void closeDriver() {
 		if(driver!=null) {

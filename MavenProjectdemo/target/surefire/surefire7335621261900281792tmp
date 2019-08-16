@@ -1,9 +1,9 @@
 #surefire
-#Sun Aug 11 22:18:14 IST 2019
+#Sun Aug 11 22:36:30 IST 2019
 testng.configurator=org.apache.maven.surefire.testng.conf.TestNG60Configurator
-testng.test.classpath=C\:\\Users\\tiju thomas\\git\\repository2\\MavenProjectdemo\\target\\test-classes
-classPathUrl.0=C\:\\Users\\tiju thomas\\git\\repository2\\MavenProjectdemo\\target\\test-classes
-classPathUrl.1=C\:\\Users\\tiju thomas\\git\\repository2\\MavenProjectdemo\\target\\classes
+testng.test.classpath=C\:\\Users\\tiju thomas\\git\\chrome test\\MavenProjectdemo\\target\\test-classes
+classPathUrl.0=C\:\\Users\\tiju thomas\\git\\chrome test\\MavenProjectdemo\\target\\test-classes
+classPathUrl.1=C\:\\Users\\tiju thomas\\git\\chrome test\\MavenProjectdemo\\target\\classes
 classPathUrl.2=C\:\\Users\\tiju thomas\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-java\\3.141.59\\selenium-java-3.141.59.jar
 classPathUrl.3=C\:\\Users\\tiju thomas\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-api\\3.141.59\\selenium-api-3.141.59.jar
 classPathUrl.4=C\:\\Users\\tiju thomas\\.m2\\repository\\org\\seleniumhq\\selenium\\selenium-chrome-driver\\3.141.59\\selenium-chrome-driver-3.141.59.jar
@@ -39,14 +39,14 @@ enableAssertions=true
 childDelegation=false
 testFwJarVersion=6.14.3
 preferTestsFromInStream=false
-testSuiteDefinitionTestSourceDirectory=C\:\\Users\\tiju thomas\\git\\repository2\\MavenProjectdemo\\src\\test\\java
-testSuiteXmlFiles0=C\:\\Users\\tiju thomas\\git\\repository2\\MavenProjectdemo\\testng.xml
+testSuiteDefinitionTestSourceDirectory=C\:\\Users\\tiju thomas\\git\\chrome test\\MavenProjectdemo\\src\\test\\java
+testSuiteXmlFiles0=C\:\\Users\\tiju thomas\\git\\chrome test\\MavenProjectdemo\\testng.xml
 requestedTest=
 rerunFailingTestsCount=0
 runOrder=filesystem
-runStatisticsFile=C\:\\Users\\tiju thomas\\git\\repository2\\MavenProjectdemo\\.surefire-04C727DF49DE7FD7ADC3094F3B32AA6184E1C609
+runStatisticsFile=C\:\\Users\\tiju thomas\\git\\chrome test\\MavenProjectdemo\\.surefire-43E9A0A395EDB3078DC070ED5D779525E8C15687
 isTrimStackTrace=true
-reportsDirectory=C\:\\Users\\tiju thomas\\git\\repository2\\MavenProjectdemo\\target\\surefire-reports
+reportsDirectory=C\:\\Users\\tiju thomas\\git\\chrome test\\MavenProjectdemo\\target\\surefire-reports
 useSystemClassLoader=true
 useManifestOnlyJar=true
 failIfNoTests=false

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="4" ignored="0" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36205" started-at="2019-08-11T16:58:08Z" finished-at="2019-08-11T16:58:45Z">
+  <suite name="Suite" duration-ms="16882" started-at="2019-08-11T17:06:31Z" finished-at="2019-08-11T17:06:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36205" started-at="2019-08-11T16:58:08Z" finished-at="2019-08-11T16:58:45Z">
+    <test name="Test" duration-ms="16882" started-at="2019-08-11T17:06:31Z" finished-at="2019-08-11T17:06:48Z">
       <class name="edgebrowser">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:edgebrowser@6fadae5d]" name="launchBrowser" is-config="true" duration-ms="4309" started-at="2019-08-11T16:58:08Z" finished-at="2019-08-11T16:58:13Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:edgebrowser@6fadae5d]" name="launchBrowser" is-config="true" duration-ms="4375" started-at="2019-08-11T17:06:31Z" finished-at="2019-08-11T17:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="openADDAGK()[pri:1, instance:edgebrowser@6fadae5d]" name="openADDAGK" duration-ms="27356" started-at="2019-08-11T16:58:13Z" finished-at="2019-08-11T16:58:40Z">
+        <test-method status="PASS" signature="openADDAGK()[pri:1, instance:edgebrowser@6fadae5d]" name="openADDAGK" duration-ms="10175" started-at="2019-08-11T17:06:36Z" finished-at="2019-08-11T17:06:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openADDAGK -->
-        <test-method status="FAIL" signature="CheckIn()[pri:2, instance:edgebrowser@6fadae5d]" name="CheckIn" duration-ms="2267" started-at="2019-08-11T16:58:40Z" finished-at="2019-08-11T16:58:42Z">
+        <test-method status="FAIL" signature="CheckIn()[pri:2, instance:edgebrowser@6fadae5d]" name="CheckIn" duration-ms="137" started-at="2019-08-11T17:06:46Z" finished-at="2019-08-11T17:06:46Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate an element using xpath=//ng-multiselect-dropdown[@id='unit_number']
@@ -69,7 +69,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckIn -->
-        <test-method status="FAIL" signature="CheckOut()[pri:3, instance:edgebrowser@6fadae5d]" name="CheckOut" duration-ms="22" started-at="2019-08-11T16:58:43Z" finished-at="2019-08-11T16:58:43Z">
+        <test-method status="FAIL" signature="CheckOut()[pri:3, instance:edgebrowser@6fadae5d]" name="CheckOut" duration-ms="22" started-at="2019-08-11T17:06:46Z" finished-at="2019-08-11T17:06:46Z">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -78,8 +78,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88
 *** Element info: {Using=xpath, value=//a[@href='#/visitor/visitor-out']}]]>
             </message>
             <full-stacktrace>
@@ -89,8 +89,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88
 *** Element info: {Using=xpath, value=//a[@href='#/visitor/visitor-out']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -141,7 +141,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckOut -->
-        <test-method status="FAIL" signature="staffcheckin()[pri:4, instance:edgebrowser@6fadae5d]" name="staffcheckin" duration-ms="10" started-at="2019-08-11T16:58:43Z" finished-at="2019-08-11T16:58:43Z">
+        <test-method status="FAIL" signature="staffcheckin()[pri:4, instance:edgebrowser@6fadae5d]" name="staffcheckin" duration-ms="12" started-at="2019-08-11T17:06:46Z" finished-at="2019-08-11T17:06:46Z">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -150,8 +150,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88
 *** Element info: {Using=xpath, value=//p[contains(text(),'Staff')]}]]>
             </message>
             <full-stacktrace>
@@ -161,8 +161,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88
 *** Element info: {Using=xpath, value=//p[contains(text(),'Staff')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -213,7 +213,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- staffcheckin -->
-        <test-method status="FAIL" signature="staffcheckout()[pri:5, instance:edgebrowser@6fadae5d]" name="staffcheckout" duration-ms="6" started-at="2019-08-11T16:58:43Z" finished-at="2019-08-11T16:58:43Z">
+        <test-method status="FAIL" signature="staffcheckout()[pri:5, instance:edgebrowser@6fadae5d]" name="staffcheckout" duration-ms="6" started-at="2019-08-11T17:06:46Z" finished-at="2019-08-11T17:06:46Z">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -222,8 +222,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88
 *** Element info: {Using=xpath, value=//a[@href='#/staff/staff-out']}]]>
             </message>
             <full-stacktrace>
@@ -233,8 +233,8 @@ from unknown error: web view not found
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88
 *** Element info: {Using=xpath, value=//a[@href='#/staff/staff-out']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -285,7 +285,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- staffcheckout -->
-        <test-method status="FAIL" signature="closeDriver()[pri:0, instance:edgebrowser@6fadae5d]" name="closeDriver" is-config="true" duration-ms="2110" started-at="2019-08-11T16:58:43Z" finished-at="2019-08-11T16:58:45Z">
+        <test-method status="FAIL" signature="closeDriver()[pri:0, instance:edgebrowser@6fadae5d]" name="closeDriver" is-config="true" duration-ms="2047" started-at="2019-08-11T17:06:46Z" finished-at="2019-08-11T17:06:48Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
@@ -293,8 +293,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
@@ -302,8 +302,8 @@ Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-FT5S200T', ip: '192.168.43.240', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c5eac7afbcd4fe1e6f0bcf139870b79a
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\TIJUTH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62668}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 75b8be06b5614c1f2d1592455b350b88
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
